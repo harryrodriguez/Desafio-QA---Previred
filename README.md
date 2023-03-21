@@ -9,3 +9,6 @@ Se adjuntan los archivos JAVA con los codigos desarrollados para la automatizaci
 3)MasterClassPersonas: Archivo que ejecuta el codigo.
 
 Tambien se adjuntan evidencias de ejecucion y logs.
+
+Nombre: Harry J.J Rodriguez B
+Correo: harry.rodriguez.02@gmail.com
