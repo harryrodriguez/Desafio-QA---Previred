@@ -1,0 +1,108 @@
+﻿<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Frameset//EN">
+<HTML><HEAD><META content="IE=5.0000" http-equiv="X-UA-Compatible">
+<TITLE>Registro de reproducciones para masterClassPersonas</TITLE> 
+<META http-equiv="Content-Type" content="text/html; charset=utf-8">
+<SCRIPT>
+<!--
+function w1(str) { logtitle.document.writeln(str) }
+function w2(str) { navframe.document.writeln(str) }
+function writeTitle()
+{
+	logtitle.document.open("text/html", "replace")
+	w1('<HTML>')
+	w1('<HEAD>')
+	w1('<STYLE TYPE="text/css">')
+	w1('<!--')
+	w1('	p {color: #FFFFFF; font-size: 20pt; font-weight: bold}')
+	w1('	select {width: 100%; font-size: 8pt}')
+	w1('//--\>')
+	w1('</STYLE>')
+	w1('</HEAD>')
+	w1('<BODY BGCOLOR=#0099CC>')
+	w1('<TABLE BORDER=0 WIDTH="100%" HEIGHT="100%"><TR VALIGN=CENTER><TD ALIGN=CENTER><P>Archivo de anotaciones: masterClassPersonas</TD></TR></TABLE>')
+	w1('</BODY>')
+	w1('</HTML>')
+	logtitle.document.close()
+}
+
+function writeNavFrame()
+{
+	navframe.document.open("text/html", "replace")
+	w2('<HTML>')
+	w2('<HEAD>')
+	w2('<STYLE TYPE="text/css">')
+	w2('<!--')
+	w2('	div#return {text-decoration: none; font-size: 10pt; color: black;}')
+	w2('	div#return:hover {text-decoration: underline;}')
+	w2('	select {width: 100%; font-size: 8pt}')
+	w2('//--\>')
+	w2('</STYLE>')
+	w2('<SCRIPT>')
+	w2('<!--')
+	w2('function gotoLogAnchor(hash,text)')
+	w2('{')
+	w2('	if (text != "<Ninguno>") {')
+	w2('		parent.log.location.replace("rational_ft_logframe.html#"+hash)')
+	w2('		window.status=text')
+	w2('	} else {')
+	w2('		window.status=""')
+	w2('	}')
+	w2('}')
+	w2('function clearOtherLists(listbox)')
+	w2('{')
+	w2('	if (document.failures.list != listbox)')
+	w2('		document.failures.list.selectedIndex = -1;')
+	w2('	if (document.warnings.list != listbox)')
+	w2('		document.warnings.list.selectedIndex = -1;')
+	w2('	if (document.vps.list != listbox)')
+	w2('		document.vps.list.selectedIndex = -1;')
+	w2('}')
+	w2('//--\>')
+	w2('</SCRIPT>')
+	w2('</HEAD>')
+	w2('<BODY BGCOLOR=#EEEEEE>')
+	w2('<FORM NAME=failures>')
+	w2('	<FONT COLOR=darkred><B>Anomalías</B></FONT><BR>')
+	w2('	<SELECT WIDTH="100%" SIZE=8 NAME=list')
+	w2('	 onChange="gotoLogAnchor(this.options[this.selectedIndex].value,this.options[this.selectedIndex].text); clearOtherLists(this);">')
+	w2('<OPTION VALUE="">&lt;Ninguno&gt;</OPTION>')
+	w2('	</SELECT>')
+	w2('</FORM>')
+	w2('</P>')
+	w2('<FORM NAME=warnings>')
+	w2('	<FONT COLOR=darkgoldenrod><B>Avisos</B></FONT><BR>')
+	w2('	<SELECT WIDTH="100%" SIZE=8 NAME=list')
+	w2('	 onChange="gotoLogAnchor(this.options[this.selectedIndex].value,this.options[this.selectedIndex].text); clearOtherLists(this);">')
+	w2('<OPTION VALUE="">&lt;Ninguno&gt;</OPTION>')
+	w2('	</SELECT>')
+	w2('</FORM>')
+	w2('</P>')
+	w2('<FORM NAME=vps>')
+	w2('	<FONT COLOR=#222222><B>Puntos de verificación</B></FONT><BR>')
+	w2('	<SELECT WIDTH="100%" SIZE=8 NAME=list')
+	w2('	 onChange="gotoLogAnchor(this.options[this.selectedIndex].value,this.options[this.selectedIndex].text); clearOtherLists(this);">')
+w2('<OPTION TITLE="[Producto_iPod_Classic] ha pasado" VALUE="vp0">[Producto_iPod_Classic] ha pasado</OPTION>')
+w2('<OPTION TITLE="[Producto_iMac] ha pasado" VALUE="vp1">[Producto_iMac] ha pasado</OPTION>')
+w2('<OPTION TITLE="[Productos_añadidos_carrito] ha pasado" VALUE="vp2">[Productos_añadidos_carrito] ha pasado</OPTION>')
+w2('<OPTION TITLE="[Costo_y_Despacho] ha pasado" VALUE="vp3">[Costo_y_Despacho] ha pasado</OPTION>')
+w2('<OPTION TITLE="[ORDEN_COMPLETADA] ha pasado" VALUE="vp4">[ORDEN_COMPLETADA] ha pasado</OPTION>')
+w2('<OPTION TITLE="[HISTORIAL_PEDIDOS] ha pasado" VALUE="vp5">[HISTORIAL_PEDIDOS] ha pasado</OPTION>')
+	w2('	</SELECT>')
+	w2('</FORM>')
+	w2('</P>')
+	w2('</BODY>')
+	w2('</HTML>')
+	navframe.document.close()
+}
+//-->
+</SCRIPT>
+ <NOFRAMES>&lt;H2&gt;Alerta de trama&lt;/H2&gt;&lt; P&gt; Este documento está 
+diseñado para ser visualizado con un navegador web con posibilidad de 
+tramas.&lt;/P&gt;&lt; A HREF="rational_ft_logframe.html"&gt;Versión sin 
+marcos&lt;/A&gt; </NOFRAMES>
+<META name="GENERATOR" content="MSHTML 11.00.10570.1001"></HEAD> <FRAMESET rows="70px,*" 
+frameborder="0" onload="writeTitle(); writeNavFrame();" );=""><FRAME name="logtitle" 
+title="Log Title" src="Registro%20de%20reproducciones%20DESAFIO%20QA_archivos/rational_ft_log.html"><FRAMESET 
+cols="20%,80%" onload="writeTitle(); writeNavFrame();"><FRAME name="navframe" 
+title="Navigation Frame" src="Registro%20de%20reproducciones%20DESAFIO%20QA_archivos/rational_ft_log.html"><FRAME 
+name="log" title="Log Frame" src="Registro%20de%20reproducciones%20DESAFIO%20QA_archivos/rational_ft_logframe.html"></FRAMESET></FRAMESET></HTML>
